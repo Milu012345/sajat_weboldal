@@ -1,0 +1,61 @@
+body{
+    background-image: url(bg.jpg);
+}
+#linkek{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+    margin: 20px;
+    text-align: center;
+    background-color: floralwhite;
+}
+a{
+    color: cornflowerblue;
+    text-align: center;
+    margin: 1px;
+}
+
+#fejlec{
+    background-color: azure;
+}
+.card1{
+    position: absolute;
+    left: 350px;
+    width: 300px;
+    border: 3px solid darkblue;
+    padding: 5px;
+    background-color: deepskyblue;
+}
+.card2{
+    position: absolute;
+    right: 350px;
+    width: 300px;
+    border: 3px solid darkblue;
+    padding: 5px;
+    background-color: deepskyblue;
+}
+.container{
+    background-color: deepskyblue;
+}
+.card3{
+    position: absolute;
+    left: 350px;
+    width: 300px;
+    border: 3px solid darkblue;
+    padding: 5px;
+    background-color: deepskyblue;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(80%);
+    transform: translateY(80%);
+}
+.card4{
+    position: absolute;
+    right: 350px;
+    width: 300px;
+    border: 3px solid darkblue;
+    padding: 5px;
+    background-color: deepskyblue;
+    top: 50%;
+    -ms-transform: translateY(80%);
+    transform: translateY(80%);
+}
